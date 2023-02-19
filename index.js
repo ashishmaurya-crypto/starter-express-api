@@ -47,6 +47,6 @@ app.use(function(err, req, res, next) {
 
 
 // creating server
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 5000;
 console.log('server start @', port)
 app.listen(port);
